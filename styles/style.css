@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/*benner section style */
+
+.benner-container{
+
+    background-image: url(../assets/Hero-bg.png);
+    max-width: 1280px;
+    height: 595px;
+}
+
+
+.benner-content{
+    color: rgb(13, 19, 33);
+    margin-top: 80x;
+    width: 950px;
+    height: 500px;
+    margin: 40px 210px 40px 210px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.benner-content{
+    
+    align-items: center;
+    margin-top: 24px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sub-title{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+    width: 200px;
+    height: 60px;
+}
+
+.container{
+    width: 1280px;
+    height: 1500px;
+    padding: 80px 48px;
+}
+
+.section-title{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.section-discription{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content{
+
+    width: 900px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 106px;
+    padding: 48px;
+    text-align: left;
+    line-height: 25px;
+    border-radius: 16px;
+}
+
+.section-description{
+
+    width: 60%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.section-description h2{
+    margin-top: 15px;
+    line-height: 40px;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.section-description p{
+    margin-top: 10px;
+    letter-spacing: 10;
+
+}
+.section-image{
+    width: 40%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+}
+
+
+.inspiration{
+    width: 1140px;
+    height: 750px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.inspiration-title{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inspiration-title h1{
+    margin-bottom: 25px;
+}
+
+.youtube-video{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.target{
+    margin: 100px 142px 124px 142px;
+    padding: 30px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+
+.skills-container{
+   display: flex;
+   gap: 25px;
+   justify-items: flex-start;
+
+}
+
+.skill-html{
+    width: 364px;
+    height: 250px;
+    padding: 30px;
+    background-color: rgba(255, 76, 30, 0.05);
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+.skill-css{
+    width: 364px;
+    height: 250px;
+    padding: 30px;
+    background-color: rgba(0, 76, 232, 0.05);
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+.skill-js{
+    width: 364px;
+    height: 250px;
+    padding: 30px;
+    background-color: rgba(255, 223, 0, 0.05);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.skill-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.skill-description{
+    font-size: 13px;
+    color: rgb(13, 19, 33) ;
+    justify-content: baseline;
+}
+
+
+.footer-section{
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.footer-title{
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.footer-description{
+    color: white;
+    text-align: center;
+}
+
+
+.footer-section input[type="text"]{
+    width: 450px;
+    height: 57px;
+    border: none;
+    font-size: 15px;
+}
+
+.footer-section input[type="submit"]{
+    width: 100px;
+    height: 57px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.socal-media{
+    display: flex;
+    margin: 30px;
+}
+
+.icon-text{
+    margin-right: 40px;
+}
+
+.icon{
+    margin-left: 480px;
+    gap: 30px;
+    flex-direction: column;
+    letter-spacing: 20px;
+}
