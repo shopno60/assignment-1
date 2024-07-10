@@ -72,12 +72,13 @@ body{
     width: 1280px;
     height: 1500px;
     padding: 80px 48px;
+    line-height: 30px;
 }
 
 .section-title{
     text-align: center;
     margin-top: 30px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .section-discription{
@@ -214,7 +215,7 @@ body{
 .skill-description{
     font-size: 13px;
     color: rgb(13, 19, 33) ;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 
